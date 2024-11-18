@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/5436c69b39.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <title>HL3</title>
+    </head>
+    <body></body>
+</html>
+
+<div class="screen">
+    <i class="fas fa-volume-mute fa-2X" id="sound"></i>
+
+    <video autoplay loop muted id="videoBackground">
+        <source src="src\background.mp4" type="video/mp4"/>
+    </video>
+
+    <audio id="audioClick">
+        <source src="src\buttonclick.wav" type="audio/wav"/>
+    </audio>
+
+    <audio id="audioHover">
+        <source src="src\buttonrollover.wav" type="audio/wav"/>
+    </audio>
+
+    <div class="menu">
+        <h1>HALF-Life<sup>2</sup></h1>
+        <h3>Episode Two</h3>
+        <ul>
+            <li><a href="#">New Game</a></li>
+            <li><a href="#">Load Game</a></li>
+            <li><a href="#">Developer Commentary</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">Options</a></li>
+            <li><a href="#">Quit</a></li>
+        </ul>
+    </div>
+</div>
